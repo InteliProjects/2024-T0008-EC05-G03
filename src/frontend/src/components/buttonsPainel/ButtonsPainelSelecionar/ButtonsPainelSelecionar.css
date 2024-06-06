@@ -1,0 +1,52 @@
+.botaoAtivo {
+    background-color: #CF80FF;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Public Sans', sans-serif;
+    width: 16vw;
+    height: 3vw;
+    margin-top: 5vh;
+    font-size: 1.4vw;
+    border-radius: 15px;
+}
+
+.painelDeControleSelecionar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    margin-left: 68vw;
+    height: 100%;
+}
+
+.buttonsPainelSelecionar {
+    margin-left: 9.5vw;
+    margin-top: -1.5vh;
+    text-align: center;
+}
+
+.buttonsPainelSelecionar form:nth-child(1) button::before{
+    content: "Novo Layout";
+    font-size: 1.4vw;
+}
+
+.buttonsPainelSelecionar form:nth-child(2) button::before{
+    content: "Exportar Layout";
+    font-size: 1.4vw;
+}
+
+.buttonsPainelSelecionar form:nth-child(3) button::before{
+    content: "Importar Layout";
+    font-size: 1.4vw;
+}
+
+.buttonsPainelSelecionar form:nth-child(4) button::before{
+    content: "Editar";
+    font-size: 1.4vw;
+}
+
